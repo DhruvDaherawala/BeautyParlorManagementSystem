@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Miracle Beauty Salon Home</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ 
+  <section class="showcase">
+   
+    <header>
+      <a href="index.html"><img src="logo.jpg" width="80px" height="80px"></a>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="VID1.mp4" muted autoplay loop></video>
+
+    <div class="overlay"></div>
+    
+    <div class="text">
+      <h1>Makeup is art</h> 
+      <h3>Beauty is spirit</h3>
+      <p></p>
+      <a href="index1.php">Explore</a>
+    
+   </div>
+   
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+
+      <div class="txt">
+        <a href="admin.php">Admin</a></div>
+     
+  </div>
+    </ul>
+  
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="index1.php">SERVICES</a></li>
+      <li><a href="appoint.php">BOOK APPOINTMENT</a></li>
+     
+      <li><a href="locate.php">LOCATE US</a></li>
+    </ul>
+  </div>
+
+
+
+ <script>
+  	 const menuToggle = document.querySelector('.toggle');
+     const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+  </script>
+
+</body>
+</html>
